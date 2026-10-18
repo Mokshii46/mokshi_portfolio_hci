@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Visibility of System Status",
+    "rule": "Keep users informed about what is going on, through appropriate feedback within a reasonable time.",
+    "location": "Global Header, Contact Form, Usability Lab",
+    "implementation": "Live scroll progress bar at top of viewport; active navigation link highlight synchronized with scroll spy; form submission state spinner and real-time validation badges; task timer and SUS score calculation preview.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Initial static form showed no indication when the submit button was clicked.",
+    "afterFix": "Added animated loading state, disabled submit state with spinner, and immediate success toast with undo action."
+  },
+  {
+    "id": 2,
+    "name": "Match Between System and the Real World",
+    "rule": "Speak the users' language, with words, phrases, and concepts familiar to the user, rather than internal jargon.",
+    "location": "Academics, Projects, Skills & Experience",
+    "implementation": "Familiar academic terms (CGPA, Coursework, Semester), standard engineering concepts (AST, REST API, VAE, Docker), natural calendar timeline metaphors, universally recognized iconography (GitHub, LinkedIn, Terminal, Book).",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Technical skills were originally labeled with obscure internal abbreviations and arbitrary % bars.",
+    "afterFix": "Replaced misleading percentages with clear competency tiers (Proficient, Working Knowledge, Exploring) and domain groupings."
+  },
+  {
+    "id": 3,
+    "name": "User Control and Freedom",
+    "rule": "Users often perform actions by mistake. Provide clearly marked 'emergency exits' to leave unwanted states.",
+    "location": "Project Details Modal, Article Reader Modal, Command Palette",
+    "implementation": "Prominent close buttons ('X') in modals; full keyboard `Escape` dismissal; click outside / backdrop dismiss; clear search button to reset filters; undo toast action on form actions.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Opening project details trapped users without an obvious back button or keyboard escape handler.",
+    "afterFix": "Added backdrop blur click dismissal, accessible 'Esc' key event listener, and sticky top-right exit button with focus trap."
+  },
+  {
+    "id": 4,
+    "name": "Consistency and Standards",
+    "rule": "Users should not have to wonder whether different words, situations, or actions mean the same thing.",
+    "location": "Global Design System, Typography, Button Component Hierarchy",
+    "implementation": "Single unified design token system for colors, shadows, border radii, and button hierarchies (Primary accent, Secondary outline, Ghost); standardized badge anatomy across all cards.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Different sections utilized inconsistent button sizes and conflicting card border radii.",
+    "afterFix": "Standardized all interactive elements using a centralized utility class hierarchy and tokenized spacing scale."
+  },
+  {
+    "id": 5,
+    "name": "Error Prevention",
+    "rule": "A careful design which prevents a problem from occurring in the first place is even better than good error messages.",
+    "location": "Contact Form, SUS Evaluation Form, Search Inputs",
+    "implementation": "Inline live email regex checking; disabled submit button when mandatory fields are missing; input masking; character limit counters with warning state; confirmation dialog before clearing completed evaluations.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Users could submit an empty or malformed contact form, triggering generic alert popups.",
+    "afterFix": "Implemented proactive field validation that detects syntax errors on keystroke and disables submit until valid."
+  },
+  {
+    "id": 6,
+    "name": "Recognition Rather Than Recall",
+    "rule": "Minimize the user's memory load by making elements, actions, and options visible.",
+    "location": "Sticky Header, Project Category Chips, Command Palette, Tooltips",
+    "implementation": "Persistent navigation bar with visible labels; filter chips showing exact category counts; keyboard shortcut hints (`Ctrl+K`, `?`, `D`); breadcrumbs and visible metadata tags on all articles and projects.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Filter options required remembering exact technology names in a free-text box.",
+    "afterFix": "Added visible category filter chips (AI/ML, NLP & Systems, Full Stack) alongside autocomplete search."
+  },
+  {
+    "id": 7,
+    "name": "Flexibility and Efficiency of Use",
+    "rule": "Accelerators—unseen by novice users—may speed up the interaction for expert users.",
+    "location": "Command Palette, Global Shortcuts, Quick Filter Chips",
+    "implementation": "`Ctrl+K` / `Cmd+K` command palette for instant navigation across all projects, blogs, and sections; `D` hotkey to toggle dark/light theme; `?` hotkey to open HCI design guide; quick copy buttons for contact info.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Navigation was purely mouse-driven with no keyboard accelerators for power users or evaluators.",
+    "afterFix": "Implemented global hotkeys (`Ctrl+K`, `Esc`, `D`, `?`) and Tab-index navigable interface."
+  },
+  {
+    "id": 8,
+    "name": "Aesthetic and Minimalist Design",
+    "rule": "Dialogues should not contain information that is irrelevant or rarely needed. Every extra unit of info competes.",
+    "location": "Global Layout, Typography, Card Anatomy",
+    "implementation": "Clean 60-30-10 color balance using slate neutral base and indigo accent; generous whitespace (24-32px margins); progressive disclosure (summaries on cards, deep architecture inside modal dialogs).",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Project cards were overcrowded with full paragraphs of text, raw URLs, and cluttered metrics.",
+    "afterFix": "Streamlined cards to high-level subtitle + key metrics + 3 tech tags; moved architecture deep-dive into modal dialog."
+  },
+  {
+    "id": 9,
+    "name": "Help Users Recognize, Diagnose, and Recover from Errors",
+    "rule": "Error messages should be expressed in plain language, precisely indicate the problem, and constructively suggest a solution.",
+    "location": "Contact Form Inline Errors, Search Zero State",
+    "implementation": "Clear, contextual error messages with actionable suggestions ('Please enter a valid email address with an @ symbol and domain'); zero-state fallback with a one-click 'Clear Filters' button when no projects match.",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Searching for an unmatched keyword resulted in a blank screen with no guidance.",
+    "afterFix": "Added friendly empty-state illustration with text: 'No projects match your filter. Click here to reset all filters'."
+  },
+  {
+    "id": 10,
+    "name": "Help and Documentation",
+    "rule": "Even though it is better if the system can be used without documentation, it may be necessary to provide help.",
+    "location": "HCI Guide Modal, Feature Tooltips, Evaluation Instructions",
+    "implementation": "Accessible 'HCI Principles & Navigation Guide' modal accessible via floating badge or `?` hotkey; descriptive tooltips explaining technical metrics (e.g. 'AST', 'VAE', 'HDBSCAN', 'SUS score formula').",
+    "severity": 0,
+    "severityLabel": "0 - No Problem Found",
+    "beforeFix": "Evaluators had to guess which HCI heuristics were implemented in which components.",
+    "afterFix": "Integrated on-demand interactive HCI inspector highlighting real-time design decisions and heuristic mappings."
+  }
+]

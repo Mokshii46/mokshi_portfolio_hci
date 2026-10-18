@@ -1,0 +1,128 @@
+[
+  {
+    "id": "codesage",
+    "title": "CodeSage",
+    "subtitle": "AI-Powered Deterministic Code Explanation Engine",
+    "category": "NLP & Systems",
+    "period": "Jul 2025 – Oct 2025",
+    "featured": true,
+    "github": "https://github.com/Mokshii46/CodeSage",
+    "demo": "https://github.com/Mokshii46/CodeSage#demo",
+    "summary": "Built an AI-powered code explanation engine with a 6-stage compiler pipeline and custom recursive-descent parser, eliminating external LLM API costs by 100% and reducing latency by 40%.",
+    "stack": ["Python", "NLP", "AST", "Regex", "BiLSTM", "Tkinter"],
+    "metrics": [
+      { "label": "Pipeline Stages", "value": "6 Stages" },
+      { "label": "AST Node Types", "value": "15+ Types" },
+      { "label": "API Cost Reduction", "value": "100%" },
+      { "label": "Latency Drop", "value": "40%" }
+    ],
+    "architecture": [
+      { "step": "1. Lexer", "detail": "Tokenizes Python code using regex-based scanner into typed tokens." },
+      { "step": "2. Parser", "detail": "Custom recursive-descent parser building a syntax tree supporting 5+ Python constructs." },
+      { "step": "3. AST Generator", "detail": "Constructs 15+ node types with parent-child linkage and scope tracking." },
+      { "step": "4. Rule Summarizer", "detail": "Traverses AST nodes deterministically to generate semantic function summaries." },
+      { "step": "5. BiLSTM Decoder", "detail": "Seq2seq model trained on 5,000 code-summary pairs (30 epochs) for natural phrasing." },
+      { "step": "6. GUI & Visualizer", "detail": "Tkinter visualizer rendering AST node hierarchies and plain-English breakdown." }
+    ],
+    "highlights": [
+      "Engineered custom recursive-descent parser without relying on Python's native `ast` module.",
+      "Trained custom seq2seq BiLSTM model to synthesize natural language explanations from AST tokens.",
+      "Replaced costly GPT-4o-mini calls with internal deterministic AST rule engine, achieving 0 API dependency.",
+      "Built clean interactive GUI visualizing AST parent-child nodes side-by-side with code execution logic."
+    ],
+    "hciHighlights": "Adheres to Shneiderman's 8 Golden Rules by yielding immediate visual closure; F-pattern layout with dual-pane code and AST inspection."
+  },
+  {
+    "id": "edna-taxonomy",
+    "title": "eDNA Taxonomy & Biodiversity",
+    "subtitle": "Metagenomic Analysis Pipeline with VAE & HDBSCAN Clustering",
+    "category": "AI / ML",
+    "period": "Aug 2025 – Oct 2025",
+    "featured": true,
+    "github": "https://github.com/Mokshii46/eDNA-Taxonomy-Biodiversity",
+    "demo": "https://github.com/Mokshii46/eDNA-Taxonomy-Biodiversity#results",
+    "summary": "High-throughput environmental DNA analysis pipeline compressing 20k+ sequences via Variational Autoencoders (87.5% reduction) and discovering novel OTUs with HDBSCAN.",
+    "stack": ["Python", "TensorFlow", "scikit-learn", "HDBSCAN", "NumPy", "Flask", "UMAP"],
+    "metrics": [
+      { "label": "DNA Sequences", "value": "20,000+" },
+      { "label": "Dim Reduction", "value": "87.5% (256->32)" },
+      { "label": "Confidence", "value": "85–99%" },
+      { "label": "Indices Served", "value": "4 Indices" }
+    ],
+    "architecture": [
+      { "step": "1. Sequence Preprocessing", "detail": "Converts raw FASTQ/FASTA into 256-dimensional k-mer frequency representations." },
+      { "step": "2. VAE Compression", "detail": "Variational Autoencoder compresses 256-dim k-mer vectors down to 32 latent dimensions." },
+      { "step": "3. Unsupervised Clustering", "detail": "HDBSCAN isolates 8+ species clusters and detects ~20% novel Operational Taxonomic Units (OTUs)." },
+      { "step": "4. REST API & UMAP", "detail": "Flask API serves 2D UMAP projection and calculates 4 biodiversity metrics (Shannon, Simpson, Pielou, Richness)." }
+    ],
+    "highlights": [
+      "Eliminated reliance on computationally intensive reference taxonomic databases via self-supervised VAE.",
+      "Identified and flagged uncataloged marine OTUs with rigorous statistical confidence intervals (85–99%).",
+      "Calculated ecological metrics in real time: Shannon Entropy, Simpson Dominance, Pielou Evenness, and Species Richness.",
+      "Exposed REST endpoints consumed by interactive 2D visualization scatterplots."
+    ],
+    "hciHighlights": "Gestalt similarity applied to cluster groupings; responsive data charts preventing visual overload (Aesthetic and Minimalist Design)."
+  },
+  {
+    "id": "joblink",
+    "title": "JobLink – AI Job Matching Platform",
+    "subtitle": "Full-Stack Recruitment Portal with Groq LLM & Supabase RLS",
+    "category": "Full Stack",
+    "period": "Dec 2025 – Feb 2026",
+    "featured": true,
+    "github": "https://github.com/Mokshii46/JobLink",
+    "demo": "https://github.com/Mokshii46/JobLink#preview",
+    "summary": "Full-stack job matching platform featuring AI resume parsing via Groq LLM, 14+ authenticated REST endpoints, and an automated match scoring engine with 85-99% accuracy.",
+    "stack": ["React", "Node.js", "Express", "Supabase", "PostgreSQL", "Groq LLM", "JWT"],
+    "metrics": [
+      { "label": "REST Endpoints", "value": "14+ Endpoints" },
+      { "label": "Match Confidence", "value": "85–99%" },
+      { "label": "Rate Limiting", "value": "100 req/15min" },
+      { "label": "DB Tables with RLS", "value": "4 Tables" }
+    ],
+    "architecture": [
+      { "step": "1. Resume Parsing", "detail": "Groq LLM parses PDF/DOCX resumes into structured JSON with 5+ contact fields and 6 skill sets." },
+      { "step": "2. Secure DB Storage", "detail": "Supabase PostgreSQL with Row-Level Security (RLS) isolating candidate vs employer records." },
+      { "step": "3. Auth & Rate Limit", "detail": "JWT tokens with role-based access control and memory rate limiting preventing brute force." },
+      { "step": "4. AI Scoring Pipeline", "detail": "Calculates skill intersection, experience cosine distance, and generates structured matching rationale." }
+    ],
+    "highlights": [
+      "Architected clean multi-tenant schema with candidate and recruiter workspaces.",
+      "Built resilient in-memory sliding window rate limiter safeguarding against API abuse.",
+      "Surfaces missing vs matched skills clearly to candidates, providing actionable feedback.",
+      "Engineered automated candidate ranking system cutting recruiter review time by 65%."
+    ],
+    "hciHighlights": "Visibility of system status during multi-step resume analysis; error prevention through structured file validations."
+  },
+  {
+    "id": "floatchat",
+    "title": "FloatChat (SIH 2025)",
+    "subtitle": "Retrieval-Augmented Chatbot for ARGO Ocean Float Telemetry",
+    "category": "AI / ML",
+    "period": "Smart India Hackathon 2025",
+    "featured": true,
+    "github": "https://github.com/Mokshii46/FloatChat-SIH",
+    "demo": "https://github.com/Mokshii46/FloatChat-SIH#readme",
+    "summary": "Oceanographic conversational AI system querying global ARGO float sensors (salinity, temperature, depth) using hybrid vector retrieval and geospatial filtering.",
+    "stack": ["React", "Python", "FastAPI", "LangChain", "Vector DB", "Leaflet", "Tailwind CSS"],
+    "metrics": [
+      { "label": "Ocean Floats Indexed", "value": "3,000+ Floats" },
+      { "label": "Query Latency", "value": "< 450ms" },
+      { "label": "Retrieval Accuracy", "value": "94.2%" },
+      { "label": "Hackathon", "value": "SIH 2025 Finalist" }
+    ],
+    "architecture": [
+      { "step": "1. Telemetry Ingestion", "detail": "Pulls NetCDF ARGO oceanographic float profiles and generates spatiotemporal embeddings." },
+      { "step": "2. Hybrid Search", "detail": "Combines dense vector similarity with geospatial bounding-box SQL queries." },
+      { "step": "3. RAG Grounding", "detail": "Feeds contextual float profiles into LLM to synthesize natural oceanographic answers." },
+      { "step": "4. Interactive Map UI", "detail": "Leaflet map with interactive float trajectory markers and depth profile charts." }
+    ],
+    "highlights": [
+      "Built for Smart India Hackathon 2025 problem statement addressing marine and ocean data discovery.",
+      "Enables ocean researchers to ask plain English questions like 'Show salinity anomalies in Arabian Sea for Float 2901550'.",
+      "Dynamic interactive charting depicting depth vs temperature thermoclines alongside chat responses.",
+      "Designed with high-contrast marine-friendly color palettes and accessible data visualizations."
+    ],
+    "hciHighlights": "Recognition over recall: interactive map and sample query chips eliminate the need to memorize float IDs or coordinates."
+  }
+]

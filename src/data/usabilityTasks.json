@@ -1,0 +1,57 @@
+[
+  {
+    "id": "task-1",
+    "title": "Task 1: Locate CodeSage Project Details & Stack",
+    "scenario": "You are a recruiter or technical interviewer looking for Mokshi's project on compiler ASTs and code summarization.",
+    "goal": "Navigate to the Projects section, search or filter for 'CodeSage', and open its detailed architecture modal.",
+    "targetPath": "Projects section -> Search 'CodeSage' or filter 'NLP & Systems' -> Click 'View Architecture / Details'",
+    "successCriteria": "User views the 6-stage AST pipeline modal and locates the GitHub repository link.",
+    "estimatedTimeSeconds": 25,
+    "difficulty": "Easy",
+    "hciPrinciple": "Recognition over Recall & Hick's Law"
+  },
+  {
+    "id": "task-2",
+    "title": "Task 2: Download / Inspect Professional Resume",
+    "scenario": "You are reviewing applicant credentials and need a verified copy of Mokshi's resume PDF.",
+    "goal": "Locate the primary resume CTA button in the hero section or header and trigger the resume download or preview modal.",
+    "targetPath": "Hero section -> Click 'Download Resume' or Header -> Click 'Resume'",
+    "successCriteria": "Resume modal opens with complete education, skills, and download confirmation.",
+    "estimatedTimeSeconds": 15,
+    "difficulty": "Easy",
+    "hciPrinciple": "Fitts's Law (High-visibility, prominent CTA above fold)"
+  },
+  {
+    "id": "task-3",
+    "title": "Task 3: Search and Read Technical Metagenomics Blog",
+    "scenario": "You want to evaluate Mokshi's technical writing and machine learning depth on high-dimensional genomic embeddings.",
+    "goal": "Navigate to the Blog section, filter or search for 'metagenomics' or 'VAE', and open the article.",
+    "targetPath": "Blog section -> Tag filter 'Bioinformatics' or search 'VAE' -> Click article card",
+    "successCriteria": "Article modal reader displays the complete technical article with headings and code formulas.",
+    "estimatedTimeSeconds": 25,
+    "difficulty": "Medium",
+    "hciPrinciple": "Aesthetic & Minimalist Design, Progressive Disclosure"
+  },
+  {
+    "id": "task-4",
+    "title": "Task 4: Toggle Color Theme (Dark / Light Mode)",
+    "scenario": "You prefer working in a dark workspace late at night and want to ensure the interface supports high contrast themes.",
+    "goal": "Find the theme toggle control or press the 'D' keyboard shortcut to toggle between dark and light modes.",
+    "targetPath": "Header -> Click Sun/Moon icon OR Press 'D' on keyboard",
+    "successCriteria": "Interface updates background and text colors with smooth contrast transition and saves preference.",
+    "estimatedTimeSeconds": 10,
+    "difficulty": "Easy",
+    "hciPrinciple": "Flexibility & Efficiency of Use, WCAG Contrast Standards"
+  },
+  {
+    "id": "task-5",
+    "title": "Task 5: Validate & Submit the Contact Form",
+    "scenario": "You want to invite Mokshi for an internship interview and need to send an inquiry with valid information.",
+    "goal": "Navigate to the Contact section, test inline validation with an invalid email, correct it, and submit the message.",
+    "targetPath": "Contact section -> Enter Name, Email, Subject, Message -> Observe validation hints -> Click 'Send Message'",
+    "successCriteria": "Inline errors guide the user to enter a valid email, submission triggers loading state and success toast.",
+    "estimatedTimeSeconds": 35,
+    "difficulty": "Medium",
+    "hciPrinciple": "Error Prevention & Help Users Recover from Errors"
+  }
+]

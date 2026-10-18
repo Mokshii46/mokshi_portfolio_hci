@@ -1,0 +1,216 @@
+[
+  {
+    "category": "Programming Languages",
+    "description": "Core foundational and scripting languages utilized across algorithms, compiler parsing, and systems.",
+    "skills": [
+      {
+        "name": "Python",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "3+ years",
+        "context": "Built custom AST parser (CodeSage), VAE metagenomics pipeline, and automated scientific pipelines.",
+        "icon": "Code2"
+      },
+      {
+        "name": "C++",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "Academic coursework at VJTI, Object-Oriented design, high-performance data structures and algorithm analysis.",
+        "icon": "Cpu"
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "Modern asynchronous flows, React state management, DOM interactions, event-driven web applications.",
+        "icon": "FileCode"
+      },
+      {
+        "name": "HTML5 & Modern CSS",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "Semantic HTML, WCAG 2.2 AA accessibility standards, responsive layouts, Tailwind CSS design systems.",
+        "icon": "Layout"
+      },
+      {
+        "name": "SQL (PostgreSQL)",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "1+ year",
+        "context": "Relational schema design, Row-Level Security (RLS) policies in Supabase, indexed query execution.",
+        "icon": "Database"
+      }
+    ]
+  },
+  {
+    "category": "AI, Machine Learning & Data",
+    "description": "Deep learning architectures, unsupervised clustering, NLP pipelines, and dimensionality reduction.",
+    "skills": [
+      {
+        "name": "NLP & AST Parsing",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "1.5+ years",
+        "context": "Custom recursive-descent parser, regex tokenization, BiLSTM seq2seq model, code summarization.",
+        "icon": "Brain"
+      },
+      {
+        "name": "TensorFlow & PyTorch",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "1+ year",
+        "context": "Variational Autoencoder (VAE) training, seq2seq BiLSTM decoders, loss optimization.",
+        "icon": "Network"
+      },
+      {
+        "name": "HDBSCAN & scikit-learn",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "1+ year",
+        "context": "De novo taxonomic cluster isolation, UMAP 2D projections, ecological biodiversity metrics.",
+        "icon": "Binary"
+      },
+      {
+        "name": "NumPy & Pandas",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "20,000+ sequence vectorization, k-mer frequency matrices, mathematical data transformations.",
+        "icon": "BarChart3"
+      },
+      {
+        "name": "RAG & Vector Retrieval",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "1+ year",
+        "context": "ARGO ocean float data retrieval in FloatChat (SIH 2025), hybrid vector + spatiotemporal queries.",
+        "icon": "Search"
+      }
+    ]
+  },
+  {
+    "category": "Full Stack & Web Technologies",
+    "description": "Component-driven client architecture, authenticated REST APIs, and modern cloud database backends.",
+    "skills": [
+      {
+        "name": "React.js",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "Single-page applications, custom hooks, accessible modals, responsive state, JobLink portal.",
+        "icon": "Atom"
+      },
+      {
+        "name": "Node.js & Express",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "1+ year",
+        "context": "RESTful services, JWT authentication, role-based access control, in-memory sliding window rate limiting.",
+        "icon": "Server"
+      },
+      {
+        "name": "Supabase & PostgreSQL",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "1+ year",
+        "context": "4 structured tables with Row Level Security, relational constraints, Groq LLM parsed data persistence.",
+        "icon": "Database"
+      },
+      {
+        "name": "Flask & REST APIs",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "1+ year",
+        "context": "Lightweight API endpoints serving 2D UMAP projections and biodiversity metrics for eDNA analysis.",
+        "icon": "Globe"
+      },
+      {
+        "name": "Tailwind CSS",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "Design systems, responsive utility-first styling, dark/light themes, accessible interactive states.",
+        "icon": "Palette"
+      }
+    ]
+  },
+  {
+    "category": "Developer Tools & Cloud Infrastructure",
+    "description": "Version control, containerized/cloud deployment, collaborative workflows, and API profiling.",
+    "skills": [
+      {
+        "name": "Git & GitHub",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "3+ years",
+        "context": "Branching, pull request reviews, Hacktoberfest Supercontributor badge, open-source collaboration.",
+        "icon": "GitBranch"
+      },
+      {
+        "name": "AWS Cloud Foundations",
+        "tier": "Certified",
+        "tierLevel": 2,
+        "years": "Certified",
+        "context": "Completed AWS Cloud Practitioner Essentials, covering EC2, S3, RDS, IAM, and high-availability architecture.",
+        "icon": "Cloud"
+      },
+      {
+        "name": "VS Code & Postman",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "3+ years",
+        "context": "REST endpoint testing, API contract validation, debugging AST tokens and interpreter outputs.",
+        "icon": "Terminal"
+      },
+      {
+        "name": "Jupyter, Colab & Kaggle",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "2+ years",
+        "context": "Model training runs, GPU acceleration, exploratory data analysis on genomics and code corpora.",
+        "icon": "FileSpreadsheet"
+      }
+    ]
+  },
+  {
+    "category": "Core Computer Science & HCI Methodologies",
+    "description": "Rigorous conceptual foundations informing software engineering and user interaction design.",
+    "skills": [
+      {
+        "name": "Data Structures & Algorithms",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "VJTI Coursework",
+        "context": "Trees, graphs, dynamic programming, hashing, asymptotic complexity analysis.",
+        "icon": "Layers"
+      },
+      {
+        "name": "HCI & Usability Engineering",
+        "tier": "Proficient",
+        "tierLevel": 3,
+        "years": "Academic & Project",
+        "context": "Nielsen's 10 Heuristics, Shneiderman's 8 Golden Rules, WCAG 2.2 AA accessibility, SUS evaluations.",
+        "icon": "Eye"
+      },
+      {
+        "name": "Operating Systems & Concurrency",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "VJTI Coursework",
+        "context": "Process scheduling, thread synchronization, memory management, file systems.",
+        "icon": "Settings"
+      },
+      {
+        "name": "Software Engineering & Architecture",
+        "tier": "Working Knowledge",
+        "tierLevel": 2,
+        "years": "VJTI Coursework",
+        "context": "Modular design, MVC/separation of concerns, defensive programming, automated test patterns.",
+        "icon": "CheckSquare"
+      }
+    ]
+  }
+]

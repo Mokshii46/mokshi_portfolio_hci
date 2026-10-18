@@ -1,0 +1,64 @@
+[
+  {
+    "id": "pratibimb-head",
+    "role": "Department Head",
+    "organization": "Pratibimb, VJTI",
+    "type": "Leadership & Campus Organization",
+    "period": "Nov 2025 – Present",
+    "location": "VJTI Matunga, Mumbai",
+    "description": "Leading the core operations committee for Pratibimb, VJTI's flagship annual cultural festival.",
+    "responsibilities": [
+      "Led a cross-functional department committee of 8 students, delegating event operations, stage logistics, and schedules across 3 festival days.",
+      "Conceptualized, scheduled, and executed inter-departmental competitions, driving highest recorded student participation.",
+      "Collaborated with senior faculty advisors, student council heads, and departmental leads to ensure safety, security, and seamless coordination.",
+      "Achieved 1st place championship trophy for the department in the competitive festival categories."
+    ],
+    "skills": ["Leadership", "Team Delegation", "Logistics Operations", "Event Management", "Crisis Resolution"]
+  },
+  {
+    "id": "project-x",
+    "role": "Mentee & Open Source Contributor",
+    "organization": "Project X, VJTI",
+    "type": "Technical Mentorship",
+    "period": "Jul 2025 – Present",
+    "location": "VJTI Matunga, Mumbai",
+    "description": "Selected for intensive 3-month engineering mentorship program under senior VJTI software engineers and alumni.",
+    "responsibilities": [
+      "Architected and developed a custom Python-based recursive-descent interpreter and AST processor paired with an NLP summarizer.",
+      "Conducted weekly code reviews, benchmarked memory consumption and execution latency of compiler stages.",
+      "Contributed to open-source developer tooling repositories during Hacktoberfest, earning the Supercontributor distinction badge.",
+      "Mentored junior peer cohorts in version control best practices and collaborative Git branching conventions."
+    ],
+    "skills": ["Python", "Compiler Design", "AST", "Open Source (Git/GitHub)", "Technical Mentorship"]
+  },
+  {
+    "id": "technovanza",
+    "role": "Organizing Committee Member & Workshop Lead",
+    "organization": "Technovanza, VJTI",
+    "type": "Technical Fest & Community",
+    "period": "Aug 2024 – Feb 2025",
+    "location": "VJTI Matunga, Mumbai",
+    "description": "Contributed to Asia's premier techno-management festival, hosting national robotics competitions and engineering expos.",
+    "responsibilities": [
+      "Assisted in coordinating technical workshop sessions for over 400 visiting high school and undergraduate participants.",
+      "Managed participant onboarding, registration portals, and prompt technical support during competitive programming events.",
+      "Facilitated industry speaker sessions on artificial intelligence and cloud computing."
+    ],
+    "skills": ["Technical Workshop Delivery", "Public Speaking", "Community Engagement", "Teamwork"]
+  },
+  {
+    "id": "sih-2025",
+    "role": "Lead ML & UI Developer – FloatChat",
+    "organization": "Smart India Hackathon (SIH 2025)",
+    "type": "National Hackathon",
+    "period": "Sep 2025 – Nov 2025",
+    "location": "National Level",
+    "description": "Engineered a Retrieval-Augmented Generation chatbot for real-time ARGO oceanographic float telemetry data.",
+    "responsibilities": [
+      "Designed hybrid vector search system combining dense embeddings with spatiotemporal SQL bounding boxes for ocean sensor floats.",
+      "Built high-contrast interactive map and time-series depth-temperature visualization UI in React.",
+      "Presented working solution before Ministry and naval research evaluators, demonstrating sub-450ms query response time."
+    ],
+    "skills": ["RAG Architecture", "Vector Databases", "React", "Oceanographic Data Analysis", "FastAPI"]
+  }
+]

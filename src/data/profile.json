@@ -1,0 +1,55 @@
+{
+  "name": "Mokshi Shah",
+  "preferredName": "Moksheee",
+  "role": "Computer Engineering Undergraduate & Systems/AI Developer",
+  "tagline": "Architecting deterministic AST parsers, metagenomic VAEs, and retrieval-augmented systems with human-centered principles.",
+  "location": "Mumbai, Maharashtra, India",
+  "institution": "Veermata Jijabai Technological Institute (VJTI), Matunga",
+  "status": "Available for Summer 2026 SWE & AI/ML Research Internships",
+  "photoUrl": "/mokshi.jpg",
+  "email": "mokshishah0501@gmail.com",
+  "phone": "+91 7506176003",
+  "github": "https://github.com/Mokshii46",
+  "linkedin": "https://linkedin.com/in/mokshee46",
+  "resumeUrl": "#resume",
+  "bio": "I am a second-year B.Tech Computer Engineering student at VJTI Matunga (CGPA 8.94, SGPA 9.48) dedicated to bridging core computer science systems with modern machine learning. My engineering journey spans building custom recursive-descent AST compilers for code summarization (CodeSage), compressing 20k+ metagenomic sequences using Variational Autoencoders (eDNA Taxonomy), building full-stack platforms with Supabase & Groq (JobLink), and architecting real-time oceanographic RAG systems for Smart India Hackathon (FloatChat). Beyond engineering, I lead large-scale cultural operations as Department Head at Pratibimb VJTI, mentor students in Project X, and contribute actively to open source as a Hacktoberfest Supercontributor.",
+  "quickFacts": [
+    {
+      "label": "Education",
+      "value": "B.Tech Computer Engg",
+      "sub": "VJTI Matunga (2024-Present)"
+    },
+    {
+      "label": "Academic Standing",
+      "value": "CGPA 8.94 / 10",
+      "sub": "SGPA: 9.48 (Top Decile)"
+    },
+    {
+      "label": "Competitive Rank",
+      "value": "State Rank 152",
+      "sub": "MHT-CET 99.94%ile | JEE 97.58%ile"
+    },
+    {
+      "label": "Leadership",
+      "value": "Department Head",
+      "sub": "Pratibimb Cultural Fest, VJTI"
+    },
+    {
+      "label": "Open Source",
+      "value": "Supercontributor",
+      "sub": "Hacktoberfest & Project X"
+    },
+    {
+      "label": "Cloud Certified",
+      "value": "AWS Cloud Practitioner",
+      "sub": "AWS Training & Certification"
+    }
+  ],
+  "interests": [
+    "Compilers & AST Analysis",
+    "Generative AI & RAG Architectures",
+    "Metagenomics & High-Dimensional Clustering",
+    "Human-Computer Interaction (HCI)",
+    "Distributed Systems & Cloud Backend"
+  ]
+}

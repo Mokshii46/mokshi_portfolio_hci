@@ -1,0 +1,97 @@
+{
+  "education": [
+    {
+      "institution": "Veermata Jijabai Technological Institute (VJTI), Matunga",
+      "location": "Mumbai, India",
+      "degree": "Bachelor of Technology in Computer Engineering",
+      "period": "Aug 2024 – Present",
+      "status": "Ongoing (Semester IV)",
+      "score": "CGPA: 8.94 / 10",
+      "subScore": "SGPA: 9.48",
+      "description": "Prestigious autonomous institute established in 1887. Enrolled in rigorous computer engineering curriculum covering systems programming, theory of computation, algorithms, machine learning, and hardware architectures.",
+      "highlights": [
+        "Consistent academic excellence with 9.48 SGPA",
+        "Elected Department Head for Pratibimb 2025-2026",
+        "Mentee & active collaborator in Project X technical mentorship"
+      ]
+    },
+    {
+      "institution": "Prakash College of Commerce and Science",
+      "location": "Mumbai, India",
+      "degree": "Higher Secondary Certificate (HSC) - Science (PCM)",
+      "period": "Aug 2022 – May 2024",
+      "status": "Completed",
+      "score": "HSC: 90.50%",
+      "subScore": "MHT-CET: 99.94%ile (Rank 152) | JEE Mains: 97.58%ile",
+      "description": "Rigorous college preparatory education with a focus on advanced mathematics, physics, and analytical problem-solving.",
+      "highlights": [
+        "State Rank 152 among ~350,000 candidates in MHT-CET",
+        "Top 2.4 percentile in JEE Mains competitive examination",
+        "Awarded academic distinction for mathematics and science proficiency"
+      ]
+    }
+  ],
+  "coursework": [
+    {
+      "category": "Core Computer Science & Systems",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Operating Systems",
+        "Database Management Systems",
+        "Software Engineering",
+        "Object Oriented Programming (C++/Java)"
+      ]
+    },
+    {
+      "category": "Mathematical Foundations",
+      "courses": [
+        "Discrete Mathematics",
+        "Linear Algebra & Optimization",
+        "Probability & Statistics",
+        "Graph Theory"
+      ]
+    },
+    {
+      "category": "Intelligent Systems & Applied AI",
+      "courses": [
+        "Artificial Intelligence",
+        "Machine Learning & Deep Neural Nets",
+        "Natural Language Processing (NLP)",
+        "Compiler Design & Abstract Syntax Trees"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Cloud Practitioner Essentials",
+      "issuer": "AWS Training & Certification",
+      "date": "Aug 2026",
+      "credentialUrl": "#",
+      "description": "Validated core competency in AWS cloud infrastructure, EC2/S3/RDS services, IAM security policies, high availability architectures, and cost management."
+    },
+    {
+      "title": "Hacktoberfest Supercontributor",
+      "issuer": "DigitalOcean & GitHub",
+      "date": "Oct 2025",
+      "credentialUrl": "https://github.com/Mokshii46",
+      "description": "Awarded official Supercontributor distinction for submitting and landing high-quality pull requests in open-source developer tooling and algorithmic repositories."
+    }
+  ],
+  "academicAchievements": [
+    {
+      "title": "MHT-CET State Rank 152",
+      "rank": "99.94 percentile",
+      "detail": "Ranked 152 across the entire state of Maharashtra among over 350,000 engineering aspirants."
+    },
+    {
+      "title": "JEE-Mains Top 2.4%",
+      "rank": "97.58 percentile",
+      "detail": "Demonstrated national-level excellence in advanced mathematics, physics, and chemistry."
+    },
+    {
+      "title": "1st Place Trophy – Pratibimb VJTI",
+      "rank": "Champion",
+      "detail": "Led department initiatives and claimed first place overall in VJTI's prestigious inter-departmental annual fest."
+    }
+  ]
+}
